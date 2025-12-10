@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(165, 165, 240);
+} 
+
+nav {
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ gap: 50px;
+ background-color: rgb(165, 165, 240);
+ padding-left: 140px;
+ font-family: 'FontiNavbarit';
+border: none;
+border-bottom: 2px solid rgb(133, 133, 203);
+}
+
+.linkatNavbaritFlex {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.butonatNavbaritFlex{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 265px;
+}
+
+.butonatNavbar{
+   font-size: 15px;
+   width: auto;
+   padding: 10px 25px;
+   border-radius:30px ;
+   border-color: antiquewhite;
+   background-color:rgb(129, 48, 108);
+   border-style: solid;
+   color: antiquewhite;
+    font-family: 'FontiNavbarit';
+    border-width: 1px;
+}
+.butonatNavbar:hover{
+    background-color: rgb(173, 82, 149);
+}
+
+@font-face {
+    font-family: 'FontiNavbarit';
+    src: url("fonts/Coolvetica Rg.otf") ;
+}
+@font-face {
+    font-family: 'FontTeksti';
+    src: url("fonts/Nexa-Heavy.ttf");
+}
+@font-face {
+    font-family: 'FontFooteri';
+    src: url("fonts/Roboto-Medium.ttf");
+}
+
+
+#logoTeNavBari{
+    width: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.linkatNavbarit{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.linkatNavbarit:hover {
+     color: rgb(173, 82, 149);
+}
+
+
+
+.everything {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%; 
+    gap: 50px;
+}
+
+.ready{
+    width: 1390px;
+    max-width: 1391px; 
+    background-color: rgb(114, 114, 194);
+    padding: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-family:'FontTeksti';
+}
+
+.textbox{
+    background-color: rgb(114, 114, 194);
+    padding: 40px;
+    width: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'FontTeksti';
+
+}
+
+.imagetb{
+    display: flex;
+    align-items: stretch;
+    margin: auto;
+    max-width: 1390px;
+    width: 100%;
+}
+
+.textbox2{
+    background-color: rgb(114, 114, 194);
+    padding: 40px;
+    width: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'FontTeksti';
+
+}
+
+.imagetb2{
+    display: flex;
+    align-items: stretch;
+    margin: auto;
+    max-width: 1390px;
+    width: 100%;
+}
+
+.textbox3{
+    background-color: rgb(114, 114, 194);
+    padding: 40px;
+    width: 900px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'FontTeksti';
+
+}
+
+.imagetb3{
+    display: flex;
+    align-items: stretch;
+    margin: auto;
+    max-width: 1390px;
+    width: 100%;
+}
+.butonattb{
+   font-size: 25px;
+   width: 150px;
+   padding: 10px 25px;
+   border-radius:30px ;
+   border-color: antiquewhite;
+   background-color:rgb(129, 48, 108);
+   border-style: solid;
+   color: antiquewhite;
+    font-family: 'FontiNavbarit';
+    border-width: 1px;
+}
+.butonattb:hover{
+    background-color: rgb(173, 82, 149);
+}
+
+.footeri{
+    background-color: aqua;
+    margin-top: 80px;
+    width: 100%;
+    border-top: 2px solid rgb(133, 133, 203);
+    background-color: rgb(165, 165, 240);
+    font-family:'FontFooteri' ;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footeri p{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logof{
+    width: 130px;
+}
+
+.linkatFooterit{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
+.linkatFooterit:hover{
+    color: rgb(173, 82, 149);
+}
+
+.logoMeThenie{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    gap: 10px;
+}
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    text-align: left;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+
+.legal{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: left;
+}
+.socials{
+    width: 45px;
+}
+
+.butonattbC{
+    font-size: 22px;
+   width: 180px;
+   padding: 10px 25px;
+   border-radius:30px ;
+   border-color: antiquewhite;
+   background-color:rgb(129, 48, 108);
+   border-style: solid;
+   color: antiquewhite;
+    font-family: 'FontiNavbarit';
+    border-width: 1px;
+}
+
+.butonattbC:hover{
+    background-color: rgb(173, 82, 149);
+}
