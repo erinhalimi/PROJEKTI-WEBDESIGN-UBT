@@ -15,7 +15,7 @@ nav {
 border: none;
 border-bottom: 2px solid rgb(133, 133, 203);
 }
-
+           
 .linkatNavbaritFlex {
     display: flex;
     gap: 25px;
